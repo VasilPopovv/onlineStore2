@@ -1,0 +1,13 @@
+.settings {
+  width: 100%;
+  font-family: "BioRhyme", serif;
+  font-family: "Work Sans", sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.toggleSection {
+  width: 100%;
+}

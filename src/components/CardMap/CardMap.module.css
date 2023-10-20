@@ -1,0 +1,39 @@
+.cardMap {
+    width: 100%;
+    overflow: hidden;
+}
+
+.cardMap h3 {
+    margin: 10px 10px 20px 10px;
+}
+
+.cardMap ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* gap: 15px; */
+}
+
+.li {
+    max-width: 100%;
+    width: 50%;
+    min-width: 250px;
+    height: max-content;
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+@media (width > 1500px) {
+    .li {
+        width: 33%;
+    }
+}
+
+@media (width < 550px) {
+    .li {
+        width: 1000%;
+    }
+}

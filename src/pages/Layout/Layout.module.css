@@ -1,0 +1,22 @@
+.layout {
+    width: 100%;
+    height: 100dvh;
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    /* border-radius: 15px; */
+    overflow: hidden;
+}
+
+.mobileMidleSection {
+    width: 100%;
+}
+
+.tableMidleSection {
+    width: calc(100% - 250px);
+}
+
+.deskMidleSection {
+    width: calc(100% - 600px);
+}

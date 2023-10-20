@@ -1,0 +1,80 @@
+.card {
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 0 20px 1px rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+  position: relative;
+}
+.card:hover > .imgBox {
+  transform: scale(1.1, 1.1);
+}
+
+.imgBox {
+  width: 100%;
+  aspect-ratio: 16/9;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.card img {
+  width: auto;
+  height: auto;
+  transition: 0.3s;
+}
+
+.card p {
+  text-align: center;
+}
+
+.heart {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 2rem;
+  color: rgb(181, 180, 180);
+  z-index: 10;
+}
+
+.title {
+  height: 3.3rem;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  mix-blend-mode: difference;
+  color: white;
+}
+
+.stars {
+  color: orange;
+}
+
+.price {
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.card input {
+  width: 50%;
+  height: 2rem;
+  margin-top: 10px;
+  background-color: #cbdbf8;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.card input:hover {
+  background-color: #a0bff8;
+}

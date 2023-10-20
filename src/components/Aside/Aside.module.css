@@ -1,0 +1,75 @@
+.aside {
+  min-width: 300px;
+  width: 20%;
+  padding: 10px;
+  /* border: 1px solid gray; */
+  font-family: "BioRhyme", serif;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+.cardBlock {
+  width: 100%;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardBlock span {
+  width: 100%;
+  margin: 1rem 0 3rem 0;
+  font-size: 1.4rem;
+}
+.card {
+  width: 93%;
+  aspect-ratio: 16/9;
+  background: url(../../img/1.jpg) no-repeat;
+  background-position: center;
+  background-size: auto;
+  /* backdrop-filter: brightness(40%); */
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid gray;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: rgb(6, 6, 155);
+  border-radius: 20px;
+  transform: rotateZ(-10deg);
+  z-index: -1;
+  box-shadow: 0 0 10px 1px rgb(0, 0, 0, 0.5);
+}
+.card div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 1.2rem;
+  color: white;
+}
+.card p {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  color: white;
+  font-size: 1.2vm;
+}
+.card time {
+  position: absolute;
+  bottom: 1rem;
+  right: 1.5rem;
+  color: white;
+  font-size: 1.2vm;
+}
+
+.cartBlock {
+    padding: 10px;
+}
+.cartBlock p {
+    font-size: 1.4rem;
+}
